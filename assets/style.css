@@ -1,0 +1,43 @@
+form{
+    text-align: center;
+}
+#submit{
+    background-color: rgb(22, 235, 15);
+    font-weight: bold;
+}
+#business{
+    background-color: rgb(22, 235, 15);
+    font-weight: bold;
+    }
+#Food{
+    background-color: rgb(235, 121, 15);
+    font-weight: bold;
+}
+#submit2{
+    background-color: rgb(235, 121, 15);
+    font-weight: bold;
+}
+#option{
+    font-weight: bold;
+}
+#map { 
+    height: 800px;
+    background-color: rgb(138, 133, 133);
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+}
+#map::before{
+    content: 'LOADING';
+    font-size: 4em;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    margin-top: 5em;
+}
+.leaflet-popup-content-wrapper {
+    width: 100%;
+}
+body{
+    background-color: rgb(87, 85, 84);
+}
